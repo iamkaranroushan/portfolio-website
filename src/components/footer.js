@@ -1,15 +1,19 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 function Footer() {
   return (
-    <nav>
+    <nav className="nav-footer">
       <ul>
-        <li>
-          <i class="fa-brands fa-linkedin"></i>
-        </li>
-        <li>
-          <i class="fa-brands fa-github"></i>
-        </li>
+        <a href="">
+          <li>
+            linkedIn <i class="fa-brands fa-linkedin"></i>
+          </li>
+        </a>
+        <a href="https://github.com/iamkaranroushan">
+          <li>
+            GitHub <i class="fa-brands fa-github"></i>
+          </li>
+        </a>
       </ul>
     </nav>
   );

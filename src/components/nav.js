@@ -5,15 +5,20 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
-          <i class="fa-solid fa-house"></i>
+          Home <i class="fa-solid fa-caret-down"></i>
         </li>
+        
         <li>
-          <i class="fa-solid fa-right-to-bracket"></i>
+          About <i class="fa-solid fa-caret-down"></i>
         </li>
+        
         <li>
-          <i class="fa-solid fa-right-from-bracket"></i>
+          Projects <i class="fa-solid fa-caret-down"></i>
         </li>
-        <li>d</li>
+        
+        <li>
+          Contact <i class="fa-solid fa-caret-down"></i>
+        </li>
       </ul>
     </nav>
   );

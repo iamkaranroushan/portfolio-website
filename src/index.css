@@ -11,3 +11,130 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  color: rgb(138, 157, 175);
+
+}
+body{
+  background-image: url("../public/back1.jpg");
+  background-color: rgb(60, 60, 60);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  
+}
+
+.container{
+  margin: 0px 5%;
+  text-align: center;
+
+}
+
+.main{
+  max-width: 90%;
+  margin: 15% ;
+  background-color: rgba(137, 137, 137, 0.3);
+  border: 1px solid rgb(207, 207, 207, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+
+  
+}
+.main .before{
+  backdrop-filter: blur(35px);
+}
+
+.main i{
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  margin-bottom:20px;
+}
+
+.main h1{
+  font-weight: 200;
+  font-size: 50px;
+  padding:10px;
+  color: aliceblue;
+}
+.main h2{
+  font-size: 35px;
+  padding:10px ;
+  color: rgb(225, 225, 225);
+}
+h1 span{
+  font-weight: 600;
+  background: linear-gradient(45deg, #9d00ff, #00ffcc); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-fill-color: transparent;
+}
+h2 span{
+  font-size: 60px;
+  font-weight: 800;
+  background: linear-gradient(45deg, #ff00cc, #00ffcc); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-fill-color: transparent;
+}
+.header{
+  /* max-width: 90%; */
+  position:relative;
+  top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: rgba(108, 108, 108, 0.4);
+
+}
+
+.header h1, nav{
+  padding: 20px;
+  font-size: 20px;
+}
+
+nav{
+}
+
+.header ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.header ul li{
+  margin: auto 30px;
+  font-size: 20px;
+}
+
+.nav-footer{
+  background-color: rgb(128, 128, 128,0.4);
+  border-radius: 20px;
+}
+.nav-footer ul{
+  list-style: none;
+}
+.nav-footer i{
+  color: white;
+  padding: 5px;
+}
+.nav-footer ul li{
+
+  padding: 10px;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px transparent;
+  /* background: linear-gradient(115deg, rgb(139, 58, 197) 0%, rgb(209, 17, 158) 66%, rgb(207, 205, 112) 100%); */
+  font-size: 15px;
+  margin:0 10px;
+  color: white
+
+}
