@@ -1,5 +1,7 @@
+![portfolio](https://github.com/iamkaranroushan/portfolio-website/assets/142990981/5127ac99-8522-479a-8f8b-0046e7ff138f)
 
-# Getting Started with Create React App
+# Getting Started 
+with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
