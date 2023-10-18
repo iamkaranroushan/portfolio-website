@@ -1,4 +1,4 @@
-![portfolio](https://github.com/iamkaranroushan/portfolio-website/assets/142990981/5127ac99-8522-479a-8f8b-0046e7ff138f)
+![portfolio](https://github.com/iamkaranroushan/portfolio-website/assets/142990981/405d12ff-7817-411c-b806-1485815e66a6)
 
 # Getting Started 
 with Create React App
